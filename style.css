@@ -1,0 +1,350 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; 
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav {
+    display: flex;
+    background-color: #92bc2e;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+}
+#home-icon {
+    width: 22px;
+    height: 19px;
+    background-color: #92bc2e;
+    border: 2px solid #92bc2e;
+    margin-top: -3px;
+}
+#header {
+    display: flex;
+}
+#header div {
+    padding: 0px 20px 0px 0px;
+}
+.up {
+    margin-top: 5px;
+}
+#details {
+    padding: 0px;
+    margin: 0px;
+}
+#details input {
+    width: 16vw;
+    padding:5px 5px;
+    border: 1px solid white;
+}
+#details button {
+   background-color: #008cba; 
+   color: white;
+   border: 1px solid #008cba;
+   padding:5px 5px;
+   width: 100px;
+   margin-left: -5px;
+}
+#help {
+    position:relative;
+    left: 14em;
+    margin-top: 5px;
+
+}
+h1 {
+    font-size: 45px;
+    padding: 8px;
+    margin-left: 3em;
+    font-weight: 400;
+}
+
+form {
+    width: 1000px;
+    border: 2px solid #92bc2e;
+    margin: auto;
+    padding: 20px;
+    height:190px;
+    border-radius: 10px;
+    background-color: #ffcc99;
+}
+form input {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid white;
+}
+#search {
+    width: 120px;
+    padding:16px 8px;
+    text-align: center;
+    font-size: 16px;
+    margin-left: 30px;
+    position: relative;
+    top: 10px;
+    background-color: #008cba;
+    color: white;
+    border: #008cba;
+
+    
+}
+form p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+}
+#locate {
+    position: relative;
+    top: 13px;
+    padding:16px 8px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 16px;
+    background-color: #008cba;
+    color: white;
+    border: #008cba;
+
+}
+#check {
+    width: 1000px;
+    margin: auto;
+    border: 1px solid #dddfe2;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: #524354;
+}
+.ad {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.ads {
+    text-align: center;
+}
+#note-2 {
+    border: 2px solid white;
+    background-color: white;
+    padding: 10px;
+}
+.more {
+    border-top: 1px solid #dddfe2;
+    border-left: 1px solid #dddfe2;
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+}
+#more {
+    border-bottom: 2px solid #dddfe2;
+} 
+footer {
+    margin-top: 20px;
+}
+#foot {
+    display: flex;
+    background-color: #333333;
+    padding: 20px 0px 40px 0px;
+}
+.base {
+    margin-left: 9em;
+}
+.codes, .maps, .privacy{
+    list-style: none;
+    padding: 3px;
+    color: white;
+    font-size: 15px;
+}
+#closure{
+    margin-top: 20px;
+    text-align: center;
+}
+#closure p {
+    margin-bottom: 20px;
+    color: #333333;
+}
+a {
+    text-decoration: none;
+    color: #638fc0;
+}
+#places {
+    display: flex;
+    margin: auto;
+}
+#bookings {
+    width: 750px;
+    margin: auto;
+    margin-top: 20px; 
+}
+#book {
+    margin-right: 10px;
+}
+#book img{
+    height: 18px;
+    margin-top: 5px;
+}
+#guest {
+    background-color: #ffc44b;
+    padding: 3px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+#region {
+    padding: 5px;
+  
+}
+#date {
+    padding: 4px;
+    color: #36aaff;
+    
+}
+#proceed {
+    padding: 5px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: #0896ff;
+    color: white;
+
+}
+#guest span {
+    border: 1px solid #cc9910;
+    color: #cc9910;
+    padding: 5px;
+    font-size: 14px;
+    float: right;
+    margin-right: 5px;
+    width:80px;
+    text-align: center;
+    box-shadow: -0.3px -0.3px white;
+    border-radius: 2px;
+    border-top: #cc9910;
+    border-left: #cc9910;
+}
+#bar {
+    display: flex;
+}
+.city{
+    width: 185px;
+    height: 220px;
+    border-radius: 2px;
+}
+#flag {
+    background-color: #edf1f6;
+    width: 100%;
+}
+.flags {
+    width: 17px;
+    height: 17px;
+    margin-bottom: 8px;
+}
+.co-flag {
+    width: 17px;
+    height: 17px;
+}
+.mid {
+    margin-right: 5px;
+    
+}
+.number {
+    background-color: #dddfe2;
+    margin-right: 3px; 
+    padding: 5px 0px;
+    
+}
+.numbers {
+    background-color: #dddfe2;
+    font-size: 33px;
+    margin-right: 5px;
+ 
+    
+    
+}
+#combination {
+   line-height: 30px;
+    
+}
+#common {
+    width: 950px;
+    margin: auto;
+    height: 270px;
+    margin-top: 50px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.district {
+    font-size: 14px;
+    color:#37629e;
+    position: relative;
+    bottom:12px;
+    
+}
+.districts {
+    font-size: 14px;
+    color:#37629e;
+    position: relative;
+    bottom: 4px;  
+}
+.from {
+    float: right;
+    color: #9e9e9e;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.discover {
+    width: 40px;
+    height: 20px;
+    position: relative;
+}
+#discover {
+    width: 100%;
+    margin-top: 5px;
+    background-color: #0896ff;
+    color: white;
+    border: 2px solid white;
+    box-shadow: 1px 1px 2px 0.5px rgb(119, 109, 109);
+    text-align: center;
+    font-size: 16px;
+}
+#tab {
+    width: 100%;
+}
+.double {
+    color: #9e9e9e;
+    font-size: 12px;
+    float: right;
+}
+.front {
+    width: 62%;
+    padding: 3px 0px 3px 4px;
+    position: relative;
+    bottom: 220px;
+    left: 5px;
+    color: white;
+    background-color: #24405c;
+    font-weight: bold;
+    font-size: 17px;
+
+}
+.front img{
+    width: 15px;
+    height: 15px;
+}
+.property {
+    font-size: 14px;
+    font-weight: 300;
+}
+@media screen and (max-width: 1000px) {
+   form {
+    width: 100%;
+   }
+   #common {
+    width: 90%;
+    margin-bottom: 200px;
+   }
+   #check {
+    width: 100%;
+   }
+}
